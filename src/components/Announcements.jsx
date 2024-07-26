@@ -1,8 +1,8 @@
 import React from 'react'
-import './annoucements.css'
+import './announcements.css'
 
 
-const Annoucements = () => {
+const Announcements = () => {
   return (
     <div className='annouc-container'>
       Super Deal! Free Shipping on Orders Over $50
@@ -10,4 +10,4 @@ const Annoucements = () => {
   )
 }
 
-export default Annoucements
+export default Announcements
