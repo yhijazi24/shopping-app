@@ -71,3 +71,17 @@
 .footer-payment {
     width: 50%;
 }
+
+@media only screen and (max-width:380px) {
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-center {
+        display: none;
+    }
+
+    .footer-right {
+        background-color: #fff8f8;
+    }
+}

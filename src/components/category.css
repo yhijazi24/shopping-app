@@ -38,3 +38,10 @@
     font-weight: 600;
 
 }
+
+
+@media only screen and (max-width:380px) {
+    .catitem-img{
+        height: 20vh;
+    }
+}

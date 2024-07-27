@@ -35,3 +35,12 @@ flex-direction: column;
     background-color: teal;
     color: white;
 }
+
+@media only screen and (max-width:380px) {
+    .news-description{
+        text-align: center;
+    }
+    .news-input{
+        width: 80%;
+    }
+}

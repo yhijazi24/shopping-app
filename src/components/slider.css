@@ -77,3 +77,9 @@ font-size: 20px;
 background-color: transparent;
 cursor: pointer;
 }
+
+@media only screen and (max-width:380px) {
+    .slider-container{
+        display: none;
+    }
+}

@@ -3,3 +3,10 @@
     padding: 20px;
     justify-content: space-between;
 }
+
+@media only screen and (max-width:380px) {
+    .cat-container{
+        padding: 0;
+        flex-direction: column;
+    }
+}

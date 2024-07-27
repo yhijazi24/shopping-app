@@ -55,3 +55,29 @@
     cursor: pointer;
     margin-left: 25px;
 }
+
+@media only screen and (max-width:380px) {
+    .navbar-container{
+        height: 50px;
+    }
+    .navbar-wrapper{
+        padding: 10px 0px;
+    }
+    .navbar-lang{
+        display: none;
+    }
+    .nav-input{
+        width: 50px;
+    }
+    .nav-logo{
+        font-size: 24px;
+    }
+    .navbar-right{
+        flex: 2;
+        justify-content: center;
+    }
+    .nav-menu{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+}
