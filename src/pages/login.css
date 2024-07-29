@@ -42,3 +42,9 @@ font-size: 12px;
 text-decoration: underline;
 cursor: pointer;
 }
+
+@media only screen and (max-width:380px) {
+ .register-wrapper{
+    width: 75%;
+ }   
+}

@@ -39,3 +39,9 @@ background-color: teal;
 color: white;
 cursor: pointer;
 }
+
+@media only screen and (max-width:380px) {
+    .register-wrapper{
+        width: 75%;
+    }
+}
