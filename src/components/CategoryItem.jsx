@@ -1,17 +1,20 @@
-import React from 'react'
-import './category.css'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './category.css';
 
-
-const CategoryItem = ({item}) => {
+const CategoryItem = ({ item }) => {
   return (
     <div className='catitem-container'>
-      <img src={item.img} className='catitem-img'/>
-      <div className='catitem-info'>
-        <h1 className='catitem-title'>{item.title}</h1>
-        <button className='catitem-button'>SHOP NOW</button>
-      </div>
+      <Link to={`/products/${item.cat}`} className='category_link'>
+        <img src={item.img} alt={item.title} className='catitem-img' />
+        <div className='catitem-info'>
+          <h1 className='catitem-title'>{item.title}</h1>
+          <button className='catitem-button'>SHOP NOW</button>
+        </div>
+      </Link>
     </div>
-  )
-}
+  );
+};
 
-export default CategoryItem
+export default CategoryItem;
+
